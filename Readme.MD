@@ -1,0 +1,1 @@
+The goal of this repository is to provide feature-rich but less boiler plate starting point for any .Net project to kick start their Blazor MAUI application
