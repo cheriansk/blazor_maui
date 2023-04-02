@@ -1,4 +1,5 @@
-﻿using Maui.Data;
+﻿using ClassLibrary.Data;
+
 using Microsoft.AspNetCore.Components.WebView.Maui;
 
 namespace Maui
@@ -21,6 +22,7 @@ namespace Maui
 #endif
 
             builder.Services.AddSingleton<WeatherForecastService>();
+        
 
             return builder.Build();
         }

@@ -1,4 +1,6 @@
-namespace Maui.Data
+using System;
+
+namespace ClassLibrary.Data
 {
     public class WeatherForecast
     {
