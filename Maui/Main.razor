@@ -1,4 +1,5 @@
-﻿<Router AppAssembly="@typeof(Main).Assembly">
+﻿@using BlazorLibrary.Shared
+<Router AppAssembly="@typeof(BlazorLibrary.Shared.MainLayout).Assembly">
 	<Found Context="routeData">
 		<RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
